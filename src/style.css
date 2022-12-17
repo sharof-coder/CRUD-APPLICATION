@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Comforta';
+    src: url(../Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+:root{
+    --dark-bg-color: #292f36;
+    --dark-font-color: white;
+}
+body{
+    font-family: 'Comforta';
+}
+
+.mode{
+    background-color: var(--dark-bg-color);
+    color: var(--dark-font-color);
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background: rgb(241, 234, 234);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 80em;
+}
+
+.btn-mode{
+    background: none;
+    border: none;
+}
+
+.ul-mode{
+    background: rgba(175, 175, 175, 0.411);
+}
